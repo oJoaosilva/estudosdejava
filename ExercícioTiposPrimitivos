@@ -1,0 +1,11 @@
+public class TiposPrimitivosExercicio {
+    public static void main(String[] args) {
+        String nome = "Joao";
+        String endereco = "pinheirinho";
+        double salario = 2500.12;
+        String data = "24/08/2005";
+        String relatorio = "Eu " + nome + ",morando no endereco " + endereco + " confirmo que recebi o salario de " + salario + ", na data " + data;
+
+        System.out.println(relatorio);
+    }
+}
